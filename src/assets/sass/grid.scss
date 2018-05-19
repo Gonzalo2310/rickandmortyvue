@@ -1,0 +1,21 @@
+.galery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  .item {
+    max-width: 150px;
+    margin: auto;
+  }
+}
+
+.grid-button {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr 1fr ;
+  grid-column-gap: 5px;
+  padding: 10px
+}
+
+.k-autocomplete {
+  width: 100% !important;
+}
