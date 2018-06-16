@@ -1,5 +1,7 @@
 <template>
     <div>
+        <div class="header" data-role="header"><img src="rymlogo.png" alt=""></div>
+        <div class="instructions" v-if="!filters.name"><p>Please type the name of a character</p></div>
         <div class="grid-button">
             <kendo-button :disabled="(ApiResponse.info.prev === '')" @click="apiCall(ApiResponse.info.prev)"> Prev
             </kendo-button>
